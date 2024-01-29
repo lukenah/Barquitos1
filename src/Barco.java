@@ -10,6 +10,10 @@ public class Barco {
         Arrays.fill(trozos, new Trozo());
     }
 
+    public int longitud() {
+        return trozos.length;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb=new StringBuilder();
